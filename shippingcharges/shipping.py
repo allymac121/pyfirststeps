@@ -12,6 +12,6 @@ else:
 
 orderwithshipping = Ordertotal + shippingcost
 
-print("your final total,including sjipping is: $ %.2f" %orderwithshipping )
+print("your final total,including sjipping is: {}".format(orderwithshipping )
 
 

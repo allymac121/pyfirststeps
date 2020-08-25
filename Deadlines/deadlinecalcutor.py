@@ -31,4 +31,4 @@ NoDays = totalNoDays.days % 7
 
 #show your results
 
-print(" you have %f weeks " %NoWeeks + "and %f days" %NoDays + " until the deadline")
+print(" you have {} weeks and {} days until the deadline".format(NoWeeks,NoDays))
